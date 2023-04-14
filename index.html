@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang = 'en'>
+<head>
+    <meta charset = 'URF-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class='bx bx-menu' id = "icon_menu"></i>
+
+        <nav class="navbar">
+            <a href = "#home" class = "active">Home</a>
+            <a href = "#skills">Skills</a>
+            <a href = "#portfolio">Portfolio</a>
+            <a href = "#contact">Contact</a>
+        </nav>
+    </header>
+    
+    <!-- home option design-->
+    <section class="home" id = "home">
+        <div class = "home_content">
+            <h1>HELLO...</h1>
+            <h2>from Swan Htet Naing</h2>
+            <h3><span>Computer Science</span></h3>
+            <h4> student at Assumption University of Thailand.</h4>
+            <p>As a passionate learner, I am constantly seeking to expand my academic knowledge and learn new things.I have a strong passion for programming and mathematics in the Computer Science field, and I am always eager to learn more in these areas. </p>
+            <a href="https://drive.google.com/file/d/1qyQ5ISkiMNeJPRUA0bcnw02W0kd18j4n/view?usp=share_link" class="btn" download="swan_resume">View CV</a>
+        </div>
+
+        <div class="home_bg_pic">
+            <img src="mypic.png">
+        </div>
+    </section>
+
+    <!--in About option button
+    <section class = "About" id="about">
+        <div class="about_img">
+            <img src="Me.png" alt = "">
+        </div>
+
+        <div class = "about_content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Computer Science Student</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                Nulla quia hic possimus cum, neque esse officia quasi dolor fuga alias modi, 
+                laboriosam enim quaerat illum necessitatibus.Labore ab nobis enim?</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+    -->
+
+    <!--skills option buttom-->
+    <section class="skills" id="skills"> 
+        <h2><span>Skills</span></h2>
+        <div class = "skills_container">
+            <div class="tech_box">
+            <ul>
+                <li>Python</li>
+                <li>Java</li>
+                <li>JavaScript</li>
+                <li>Project Management</li>
+            </ul>
+            </div>
+            <div class="language_box">
+                <ul>
+                    <li>English : Fluent</li>
+                    <li>Thai : Basics</li>
+                </ul>
+                </div>
+        </div>
+    </section>
+
+    <!--portfolio option buttom-->
+    <section class ="portfolio" id="portfolio">
+        <h2><span>Projects</span> I have done</h2>
+
+        <div class="portfolio-continer">
+            <div class="portfolio-box">
+                <i class='bx bxl-codepen'></i>
+                <h3>Tech StartUp</h3>
+                <p>This is about to develop a technological product until releasing to the market stage</p>
+                <a href="#readmore1" class="btn">Read More</a>
+            </div>
+            <div class="portfolio-box">
+                <i class='bx bxl-python' ></i>
+                <h3>Python</h3>
+                <p>Projects I have completed with my prior Python programming knowledge and experience<br>
+                </p>
+                <a href="#python" class="btn">Read More</a>
+            </div>
+            <div class="portfolio-box">
+                <i class='bx bxl-java'></i>
+                <h3>Java</h3>
+                <p>Projects I have done with my prior JAVA programming knowledge and experience</p>
+                <a href="#java" class="btn">Read More</a>
+            </div>
+            <div class="portfolio-box">
+                <i class='bx bxl-javascript'></i>
+                <h3>JavaScript</h3>
+                <p>Projects I have done using my prior HTML,CSS and JAVASCRIPT knowledge</p>
+                <a href="#j_script" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="readmore1" id = "readmore1">
+        <div class="context">
+        <h2><span>Tech StartUp</span> Project</h2>
+        <div class="text_container">
+            <p><ul>
+                <li>The product is the device that provides IOT solutions in Fish Farming Sector called "AQUASENSE".</li>
+                <li>During the developing process of the product.</li> 
+                <ol>
+                <li>we went and validate to our potential target user who are fish farm owners</li>
+                <li>we developed best solutions according to our targer user needs</li>
+                <li>we developed business model and financial projection</li>
+                <li>I pitched to the investor</li>
+                </ul>
+            </p>
+            <a href="https://drive.google.com/file/d/1XcMHupia1FcezWWoCgOm14Hqeqw43Ttk/view?usp=share_link" class="btn">View pitching Deck</a>
+        </div>
+        </div>
+        <div class="techS_pic">
+            <img src="MoshiIOT.png">
+        </div>  
+    </section>
+
+    <section class="python" id = "python">
+        <h1><span>Python</span> Projects</h1>
+        <div class="py_pro">
+            <div class="pro1">
+                <h3>QR Code Generator</h3>
+                <img src="qrcodegenerator.png" alt="qrcode_pic" width="450px" height="360px">
+                <p>After running the program,it will ask input the link you want to generate qrcode in terminal <br>
+                Beyond pressing enter generated qrcode will automatically download in the project file with specific name related with the link name</p>
+                <a class = "btn" href="https://github.com/Shn047/Python_projects/blob/main/qrcodegenerator.py">source code</a>
+            </div>
+            <div class="pro1">
+                <h3>Tic-Tac-Toe Game</h3>
+                <img src="tictactoe.png" alt="tictactoe_pic" width="280px" height="400px">
+                <p>Multiplayer tic tac Toe game can play 2 people.<br>
+                    It shows Tie notification and winning person.
+                </p>
+                <a class = "btn" href="https://github.com/Shn047/Python_projects/blob/main/tictactoe_game.py">source code</a>
+            </div>
+        </div>
+    </section>
+    <script src = "script.js"></script>
+
+    <Section class="java" id="java">
+        <h1><span>Java</span> Projects</h1>
+        <div class="java_pro">
+            <div class="pro2">
+                <h3>Clinic Booking Application</h3>
+                <img src="patient_interface.jpeg" alt="qrcode_pic" width="450px" height="360px">
+                <p>Interactive clinic booking app with web page and email confirmation system. <br>
+                It can use in real clinic.It is easy to use with only 3 steps to book in schedules that clinic created and sends confirmation mail to be sure</p>
+                <a class = "btn" href="https://www.youtube.com">source code</a>
+            </div>
+            <div class="pro2">
+                <h3>ISA 24-bits CPU Simulation</h3>
+                <img src="isa_project.png" alt="tictactoe_pic" width="280px" height="400px">
+                <p>24-bit CPU simulation that can input instruction from teminal and can print the CPI result and pilelined graph information after running the program!
+                </p>
+                <a class = "btn" href="https://github.com/Shn047/Java_projects/tree/main/ISA_Project/src">source code</a>
+            </div>
+        </div>
+    </Section>
+
+    <Section class="j_script" id="j_script">
+        <h1><span>JavaScript</span> Projects</h1>
+        <div class="js_pro">
+            <div class="pro3">
+                <h3>Snake Game</h3>
+                <img src="snake.png" alt="snakegame_pic" width="450px" height="360px">
+                <p>Actual active playing snake game it shows current score and the highest score that player achieved!<br>
+                </p>
+                <a class = "btn" href="https://github.com/Shn047/JavaScript_projects/tree/main/snake_game">source code</a>
+            </div>
+            <div class="pro3">
+                <h3>Random Generated Image Feed</h3>
+                <img src="weather_app.png" alt="weatherapp_interface" width="280px" height="400px">
+                <p>Weather app that can easily check the weather of cities all over the world by typing city name!
+                </p>
+                <a class = "btn" href="https://github.com/Shn047/JavaScript_projects/tree/main/image_generator">source code</a>
+            </div>
+        </div>
+    </Section>
+
+    <!--contact option button-->
+    <section class="contact" id="contact"> 
+        <h2>My <span>Contacts</span></h2>
+        <div class = "contact_option">
+            <div class="gmail_container">
+                <a href="https://mail.google.com/mail/u/0/#inbox"><i class='bx bxl-gmail'></i></a>
+                <h3>swanhtetnaing065@gmail.com</h3>
+            </div>
+            <div class="phno_container">
+                <a href=""><i class='bx bx-phone-call'></i></a>
+                <h3>065-7639306</h3>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by SwanHN | All Rights Reserved.</p>
+        </div>
+        
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+</body>
+</html>
